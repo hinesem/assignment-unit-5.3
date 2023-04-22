@@ -14,7 +14,7 @@ Update the `3-music-collection.js` file to do the following:
 > While working through the features below, make sure to commit after you complete a task! Your commit message should reflect what you added or changed since the previous commit.
 
 ### Required Features
-
+<!--
 - Create a variable `collection` that starts as an empty array.
 
 - Add a function named `addToCollection`. This function should:
@@ -27,6 +27,8 @@ Update the `3-music-collection.js` file to do the following:
   - Add 6 albums to your collection. Aim to have a mix of both same and different artists and published years. (Feel free to share your musical interests, or make stuff up. Totally fine either way.)
   - Console.log each album as added using the returned value.
   - After all are added, console.log the `collection` array.
+
+-->
 
 - Add a function named `showCollection`. This function should:
   - Take in an array parameter. (This allows it to be reused to show any collection, like the results from the find or search.)
