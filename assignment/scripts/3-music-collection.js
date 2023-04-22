@@ -39,6 +39,40 @@ for(let albumItem of collectionItems) {//loop over array by each index
 showCollection(collection);
 console.log(`\n\n`);
 
+artistArray = [];
+
+
+function findByArtist(performer) {
+    artistArray = [];
+    for (let i = 0; i < collection.length; i ++) { //https://stackoverflow.com/a/8217466
+        if (collection[i].artist === performer) {
+            console.log(`${performer} found`);
+            artistArray.push(performer);
+            break; // as soon as we find a match, break. if multiple same artists exist we'd log to console every time artist exists in array
+        } else {
+            console.log(`${performer} not found`);
+        }
+    } 
+    console.log(artistArray);
+} 
+findByArtist(`Ozzy Osbourne`);
+
+// why doesn't this work? -------------------
+function findByArtist2(performer) {
+    artistArray = [];
+    for (let i of collection) { //https://stackoverflow.com/a/8217466
+        if (collection[i].artist === performer) {
+            console.log(`${performer} found`);
+            artistArray.push(performer);
+            break; // as soon as we find a match, break. if multiple same artists exist we'd log to console every time artist exists in array
+        }
+    } 
+    console.log(artistArray);
+} 
+findByArtist2(`Ozzy Osbourne`);
+
+console.log(`\n\n`);
+
 
 // google:
 // Array.index.key
