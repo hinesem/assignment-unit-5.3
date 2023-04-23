@@ -48,7 +48,7 @@ Update the `3-music-collection.js` file to do the following:
 - Test the `findByArtist` function. Make sure to test with an artist you know is in the collection, as well as an artist you know is not in your collection. Check that for artists with multiple matches, all are found.
 
 > When testing your functions, write all tests in the JavaScript file!
--->
+
 
 ### Stretch goals
 
@@ -56,7 +56,7 @@ Update the `3-music-collection.js` file to do the following:
   - Take an input parameter for a search criteria object. Create your solution based on a search object that has these properties:
   ```
   { artist: 'Ray Charles', year: 1957 }
-  ```
+  ```-->
   - The returned output from `search` should meet these requirements:
     - Return a new array of all items in the `collection` matching *all* of the search criteria.
     - If no results are found, return an empty array.
